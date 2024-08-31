@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: backend.cloudopshub.in
+    - host: api.local
       http:
         paths:
           - path: /api
